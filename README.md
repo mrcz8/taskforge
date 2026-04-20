@@ -1,6 +1,6 @@
 # TaskForge
 
-A team task management app built to learn the **Bun** ecosystem end to end — runtime, test runner, package manager, and the surrounding tooling — by shipping something non-trivial on top of Hono + Next.js.
+A team task management app built to learn the **Bun** ecosystem end to end runtime, test runner, package manager, and the surrounding tooling by shipping something non-trivial on top of Hono + Next.js.
 
 This is a learning project, not a product. Decisions that favor shipping fast over learning are the wrong trade-off here.
 
@@ -26,7 +26,7 @@ This is a learning project, not a product. Decisions that favor shipping fast ov
 - Docker Desktop (or a recent Docker Engine + Compose v2)
 - Make (optional, for shortcuts if added later)
 
-You do **not** need Bun or Node installed on the host — everything runs in containers.
+You do **not** need Bun or Node installed on the host, everything runs in containers.
 
 ## Getting started
 
@@ -107,9 +107,9 @@ Work proceeds in phases defined in [`task.md`](./task.md). Each phase ends with 
 
 Current phase targets:
 
-- **v0.0 Foundation** — Docker stack, nginx, Bun server boots, Next.js dev server proxied, CI runs `bun test`
-- **v0.1 Auth** — Register / login / logout, `/api/me`, cookie sessions, Argon2id hashing
-- **v0.2 Users and workspaces** — Profile, workspace CRUD, invitations, policy-gated membership
+- **v0.0 Foundation** - Docker stack, nginx, Bun server boots, Next.js dev server proxied, CI runs `bun test`
+- **v0.1 Auth** - Register / login / logout, `/api/me`, cookie sessions, Argon2id hashing
+- **v0.2 Users and workspaces** - Profile, workspace CRUD, invitations, policy-gated membership
 - … see `task.md` for the full release table through **v1.0**
 
 ## Learning goals
@@ -139,8 +139,8 @@ Full "what not to build" list is in `task.md`.
 
 ## References
 
-- Bun Docker guide — https://bun.sh/guides/ecosystem/docker
-- `oven/bun` image — https://hub.docker.com/r/oven/bun
+- Bun Docker guide - https://bun.sh/guides/ecosystem/docker
+- `oven/bun` image - https://hub.docker.com/r/oven/bun
 - Hono — https://hono.dev
 - Drizzle — https://orm.drizzle.team
 - Lucia — https://lucia-auth.com
