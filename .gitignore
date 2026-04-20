@@ -1,0 +1,72 @@
+# env
+.env
+.env.*
+!.env.example
+
+# deps
+node_modules/
+.pnp
+.pnp.js
+
+# bun
+.bun/
+
+# next.js
+.next/
+out/
+next-env.d.ts
+
+# builds
+dist/
+build/
+.turbo/
+
+# typescript
+*.tsbuildinfo
+
+# testing
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+.playwright/
+
+# logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# runtime
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# docker
+.docker/
+
+# editors
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# os
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# drizzle
+drizzle/meta/_journal.json.bak
+
+# local overrides
+docker-compose.override.yml
+*.local
+
+CLAUDE.md
