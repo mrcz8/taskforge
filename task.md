@@ -208,8 +208,8 @@ Do these in order. Do not skip to a later phase until the earlier one is green.
 - [ ] `backend/src/server.ts` with Hono `app.get('/api/health', ...)`
 - [ ] `backend/package.json` with `bun test`, `bun run dev`, `bun run db:migrate`, `bun run db:seed`, `bun run cli` scripts
 - [ ] `frontend/package.json` with `dev`, `build`, `start`, `test` scripts
-- [ ] `drizzle.config.ts` pointing at Postgres in-network
-- [ ] First migration creates `users` table
+- [x] `drizzle.config.ts` pointing at Postgres in-network
+- [x] First migration creates `users` table
 - [ ] `.env.example` with every required variable
 - [ ] A GitHub Actions workflow running `bun test` and `bun run build` on push
 

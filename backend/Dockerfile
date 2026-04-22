@@ -19,7 +19,7 @@ RUN cd /temp/prod && bun install --frozen-lockfile --production
 FROM base AS dev
 ENV NODE_ENV=development
 COPY --from=deps /temp/dev/node_modules node_modules
-COPY . .
+COPY --chown=bun:bun .
 USER bun
 EXPOSE 3000
 CMD ["bun", "run", "dev"]
